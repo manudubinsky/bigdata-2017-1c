@@ -1,0 +1,43 @@
+Práctica 2
+----------
+Los objetivos de esta práctica son:
+	1) Revisar algunos conceptos de expresiones regulares.
+	2) Procesar un archivo de texto.
+	3) Realizar un histograma frecuencias de palabras.
+
+Ejercicio 1
+-----------
+Nota: en caso de ser necesario una fuente de información sobre expresiones regulares en python es  https://docs.python.org/2/howto/regex.html
+
+a) Analizar el programa "1-search.py".
+	* Escribir un programa que reconozca los simbolos de un número romano.
+
+b) Analizar el programa "5-findall"
+	* Supongamos que tenemos un string que contiene información de personas: "nombre_1,apellido_1,DNI_1/.../nombre_N,apellido_N,DNI_N". Escribir un programa que procese el string y escriba en la siguiente información por pantalla la información:
+		apellido_1 nombre_1
+		     ...
+		apellido_N nombre_N
+	
+c) Analizar el programa "6.sub.py"
+	* Escribir un programa que elimine los signos de puntuación de un string.
+
+Ejercicio 2
+-----------
+
+Procesar el archivo quijote.txt:
+
+a) Cuántas palabras tiene el texto?
+
+b) Cuáles son las 5 palabras más usadas?
+
+c) Armar un archivo de palabras prohibidas para filtrar el texto (por
+ejemplo las preposiciones y los artículos)
+
+d) Repetir el punto 2 filtrando el texto con el archivo del punto 3
+
+e) Hacer un histograma de las 10 palabras más usadas (Ver sección "Bar Charts" (pág. 75, pág. 97) el libro "Data Science from Scratch")
+
+f) Analizar la definición de "histograma"  http://quarknet.fnal.gov/toolkits/ati/histograms.html
+
+Sugerencia:
+	* Ver Counter en https://docs.python.org/2/library/collections.html
