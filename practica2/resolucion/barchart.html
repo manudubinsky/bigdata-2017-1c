@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- BAR CHART -->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>D3 Test</title>
+        <script type="text/javascript" src="d3.v3.js"></script>
+    </head>
+    <style>
+		<!-- Definicion del estilo -->
+		div.bar {
+			display: inline-block;
+			width: 20px;
+			height: 75px;   
+			background-color: teal;
+			margin-right: 2px;
+		}
+	</style>
+    <body>
+        <script type="text/javascript">
+		    <!-- Parametros del svg y distancia entre cada barra -->
+			var w = 500;
+			var h = 100;
+			var barPadding = 1;
+			
+			<!-- Conjunto de datos -->
+			var dataset = [ 5, 10, 13, 19, 21, 25, 22, 18, 15, 13,
+                11, 12, 15, 20, 18, 17, 16, 18, 23, 25 ];
+			var svg = d3.select("body").append("svg");
+			svg.attr("width", w)
+		   .attr("height", h);
+		   
+			<!-- insercion de las barras en el svg -->
+			svg.selectAll("rect")
+			   .data(dataset)
+			   .enter()
+			   .append("rect")
+			   .attr("x", function(d, i) {
+				return i * (w / dataset.length);//Bar width of 20 plus 1 for padding
+				})
+			   .attr("y", function(d) {
+				return h - (d * 4);  //Height minus data value
+				})
+			   .attr("width", w / dataset.length - barPadding)
+			   .attr("height", function(d) {
+				return (d * 4);  //Just the data value
+				})
+				.attr("fill", function(d) {
+				return "rgb(0, 0, " + (d * 10) + ")";
+				});
+				
+				<!-- Labels con la altura de las barras -->
+				svg.selectAll("text")
+			   .data(dataset)
+			   .enter()
+			   .append("text")
+			   .text(function(d) {
+				return d;
+			    })
+			    .attr("x", function(d, i) {
+				return i * (w / dataset.length) + (w / dataset.length - barPadding) / 2;
+				})
+			    .attr("y", function(d) {
+				return h - (d * 4) + 14;  //15 is now 14
+				})
+			   .attr("font-family", "sans-serif")
+			   .attr("font-size", "11px")
+			   .attr("fill", "white")
+			   .attr("text-anchor", "middle");
+			  
+        </script>
+        
+    </body>
+</html> 

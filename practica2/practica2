@@ -1,0 +1,40 @@
+Práctica 2
+----------
+Los objetivos de esta práctica son:
+	1) Analizar apectos de la visualización de datos:
+		* Escalas
+		* Ejes
+		* Colores
+		* Tipografías
+		* Posicionamiento de los datos
+	2) Desarrollar algunas nociones de la visualización de datos en Internet
+	3) Generar dos tipos de visualizaciones: gráficos de barras y scatterplots
+
+Introducción
+------------
+
+D3 es una librería de visualización para JavaScript. Vamos a 
+emplearla para desarrollar visualizaciones web. El texto de 
+consulta que vamos a usar es : 
+
+http://chimera.labs.oreilly.com/books/1230000000345/index.html
+
+Actividades
+-----------
+
+Leer del capìtulo 1 del libro las siguientes secciones: 
+		* Why Data Visualization?
+		* Why Write Code?
+		* Why Interactive?
+		* Why on the Web?
+
+
+Ejercicios
+----------
+
+Realizar el tutorial complementario del libro:
+
+http://alignedleft.com/tutorials
+
+1) Realizar el gráfico de barras propuesto por el tutorial (bar.html)
+2) Realizar el scatterplot propuesto por el tutorial (scatterplot.html)
