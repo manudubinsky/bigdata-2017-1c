@@ -1,0 +1,112 @@
+Practica 3
+----------
+
+Los objetivos de esta práctica son:
+	1) Entender conceptos básicos del tipo de dato DataFrame de R
+	2) Preprocesar un archivo csv para importar en R
+	3) Realizar gráficos de líneas en R
+
+Ejercicio 1
+-----------
+
+Importar en R el archivo "properati-AR-2016-08-01-properties-rent.10.csv":
+
+	data <- read.csv("properati-AR-2016-08-01-properties-rent.10.csv")
+	
+Nota: en el tutorial (https://therostrumblog.wordpress.com/2014/01/29/basic-data-frame-manipulations-in-r/) 
+se explican varias funciones sobre DataFrames que pueden resultar útiles.
+
+1) Cómo se llaman las columnas de la tabla "data" ?
+names(data)
+
+2) Qué información te parece que contiene la tabla ?
+Datos de propiedades
+
+3) Cuántas filas tiene ?
+nrow(data)
+
+4) Cuantos ambientes tiene el depto. más grande ?
+data.deptos <- subset(data, property_type =="apartment", rooms)
+max(data.deptos)
+
+
+5) Qué hacen las funciones:
+	lapply(data['price'], mean)
+	lapply(data['price'], mean, na.rm = TRUE)
+	
+Ejercicio 2
+-----------
+
+1) Analizar el archivo Excel "LeeLee_enroll_MF.xls":
+	* Comentar brevemente qué información contiene
+	* Ir a la sección asociada a Austria (fila 55):
+		* En la celda G55 agregar la función "=if(D55<E55)" y copiarla 
+		hasta la celda G73. Qué muestra el valor de la función ? Cómo se podría 
+		explicar dicha situación ?
+
+2) Guardar el archivo como csv teniendo en cuenta que puede haber 
+ambigüedad debido a que:
+	* Si el idioma de la máquina es español, el separador decimal es el 
+	caracter "," (para eliminar esta ambigüedad tal vez haya que procesar 
+	posteriormente el archivo csv con un programa en python)
+	* Algunas filas tienen en la columna "País" algún caracter ","
+
+3) Hacer un programa en python que haga lo siguiente:
+	* Si hay ambigüedad en el separador decimal de las columna numéricas 
+	del csv, truncar los valores (sugerencia: emplear una expresión regular)
+	* Agregar el nombre del país en todas las filas
+
+4) Importar el archivo csv en R
+
+5) Cuántas regiones distintas tiene la tabla ? 
+nrow(unique(data2["region"]))
+6
+
+6) Qué hacen estas funciones:
+	* data[data$Country == 'Argentina', c(3,4)]
+	* data[data$Country %in% c('Argentina','Bolivia'), c(1,3,4)]
+	* data2 <- data[data$Region == "Latin America and the Caribbean", c(2, 3)]
+		data3 <- aggregate(data2[, 2], list(data2$Year), mean)
+
+	
+7) Realizar el siguiente procedimiento: 
+	a) Crear el Data Frame "data2" que sea la proyección de las columnas: 
+		región, año, escolaridad primaria
+		
+		data5 <- data2["year","primary","region"]
+		names(data5)<-c("year","region","primary")
+		
+	b) Crear el Data Frame data3 que calcule el promedio de escolaridad 
+	primaria por región y año
+	
+		data7 <- aggregate(data5[, 2], list(data5$year,data5$region), mean)
+		names(data7)<-c("year","region","mean")
+		
+	c) Realizar un gráfico de líneas que muestre una curva por cada región 
+		que refleje el promedio de escolarización primaria por año (referencia: 
+		en el libro "R Graphics Cookbook" ver pag. 53 "Making Line Graph 
+		with Multiple Lines")	
+		
+		ggplot(data7, aes(x=year, y=mean, colour=region))+geom_line()
+
+		
+8) Hacer un gráfico de líneas que muestre simultáneamente la evolución 
+del promedio de la matrícula en la escuela primaria en los siguientes países 
+sudaméricanos: Argentina, Brasil, Uruguay, Chile, Bolivia y Paraguay. Repetir 
+el gráfico pero sólo a partir del año 1950.
+
+a)
+data8 <- aggregate(data2[, 2], list(data2$year,data2$country), mean)
+names(data8)<-
+america <-subset(data8,data8$country %in% c("argentina","bolivia","uruguay","chile","brazil","paraguay"))
+names(america) <- c("year","country","primary")
+ggplot(america, aes(x=year, y=primary, colour=country))+ geom_line()
+
+b)
+america1950 <- subset(america, america$year >=1950)
+names(america1950) <- c("year","country","primary")
+ggplot(america1950, aes(x=year, y=primary, colour=country))+ geom_line()
+
+
+
+
