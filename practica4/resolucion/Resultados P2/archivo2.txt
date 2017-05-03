@@ -1,0 +1,2198 @@
+ 
+<!-- 
+California State Template 
+Version 5.0 
+ 
+Based on Twitter Bootstrap 
+--> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   Welcome to the California State Web Portal 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     Skip to Main Content 
+ 
+ 
+ 
+ 
+ 
+ 
+       × 
+ 
+ 
+ 
+ 
+       Saving your location allows us to provide you with more relevant information. 
+ 
+ 
+ 
+       Update Location 
+ 
+ 
+ 
+       Clear Location 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+       × 
+ 
+ 
+ 
+ 
+       Default 
+ 
+ 
+       High Contrast 
+ 
+ 
+ 
+ 
+       Reset 
+ 
+ 
+ 
+        Increase Font Size 
+ 
+ 
+        Font 
+ 
+ 
+ 
+ 
+ 
+ 
+        Decrease Font Size 
+ 
+ 
+        Font 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+           Home 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+           Mobile Gallery 
+ 
+ 
+ 
+ 
+         Share: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+          State Agencies 
+ 
+ 
+ 
+ 
+          Contact Us 
+ 
+ 
+ 
+ 
+          Settings 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+           Set Location 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      Menu 
+ 
+ 
+ 
+ 
+ 
+       Contact 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      Search 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+        Search this site: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+          Search 
+ 
+ 
+ 
+ 
+ 
+ 
+        × 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         Home 
+ 
+        Home 
+ 
+ 
+ 
+ 
+ 
+ 
+        Getting Services 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Renew Vehicle Registration 
+ 
+             Four simple steps to renew your registration with the Department of Motor Vehicles. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Look Up Winning Lottery Numbers 
+ 
+             Look up winning lottery numbers. See if you're a winner! 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Locate a California Prison Inmate 
+ 
+             Search for adult inmates currently in a California Department of Corrections and Rehabilitation institution. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Find a State Job 
+ 
+             Access state civil service examinations, apply for vacancies, and track your application status. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              California Highway Patrol (CHP) 
+ 
+ 
+ 
+             Find traffic information, Amber Alerts, and more! 
+ 
+ 
+             Read More 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              Drought Information (Governor&#8217;s Office) 
+ 
+ 
+ 
+             Learn how the state is responding to California&#8217;s unprecedented drought. 
+ 
+ 
+             Learn More 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+        Doing Business 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Form a Business 
+ 
+             Form/Register a business entity. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Check Contractor Application 
+ 
+             Check the status of your contractor license application. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Look Up Tax Rates 
+ 
+             Find a sales and use tax rate by address. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Get Copies of Business Entity Documents 
+ 
+             Request copies of filed business entity documents and more. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              Governor&#8217;s Office of Business and Economic Development (GoBiz) 
+ 
+ 
+ 
+             Single point of contact for economic development and job creation efforts. 
+ 
+ 
+             Read More 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              Board of Equalization (BOE) 
+ 
+ 
+ 
+             Locate information on California sales use, fuel, alcohol, tobacco, and other taxes. 
+ 
+ 
+             Read More 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+        Working 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Find a Job 
+ 
+             View available State job openings. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            File for Unemployment 
+ 
+             Fast, convenient, and secure way for customers to access claim information, and manage claims 24 hours a day, seven days a week. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Form a Business 
+ 
+             Get the latest information about news, notices, customer alerts and process filings relating to business entities. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Check Contractor Application 
+ 
+             Check the status of your contractor license application. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              California Department of Human Resources (CalHR) 
+ 
+ 
+ 
+             Looking for a State Job? The State of California offers a rich variety of career opportunities. 
+ 
+ 
+             Read More 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              Employment Development Department (EDD) 
+ 
+ 
+ 
+             Learn how EDD has connected millions of job seekers and employers in an effort to build the economy of the Golden State. 
+ 
+ 
+             Learn More 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+        Learning 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Apply for a Cal Grant 
+ 
+             2 easy steps, learn more! 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Look Up a Bill or Law 
+ 
+             Locate the new laws that became effective on January 1st, 2015. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Find Your Local School 
+ 
+             Search for educational agencies in California. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Get a Visitors Guide 
+ 
+             View a digital guide or request a printed copy. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              California Student Aid Commission 
+ 
+ 
+ 
+             Locate financial aid to California students pursuing higher education. 
+ 
+ 
+             Learn More 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              California Department of Education 
+ 
+ 
+ 
+             Learn how California provides a world-class education for all students, from early childhood to adulthood. 
+ 
+ 
+             Learn More 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+        Living 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Find a State Park 
+ 
+             Locate by name, feature, and location. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Apply for Medi-Cal 
+ 
+             Find health insurance that&#8217;s right for you. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Find Child Care 
+ 
+             Search for care facilities. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Renew Vehicle Registration 
+ 
+             Register your vehicle or renew registration. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              California Courts 
+ 
+ 
+ 
+             The vast majority of cases in the California courts begin in one of the 58 superior, or trial, courts - located in each of the state's 58 counties. 
+ 
+ 
+             Read More 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              Department of Motor Vehicles 
+ 
+ 
+ 
+             Check out publications, download forms, brochures, FAQs, Vehicle Information, Boats, Vessel, Online Services, and more! 
+ 
+ 
+             Read More 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+        Visiting 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Find a State Park 
+ 
+             Locate by name, feature, and location. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Get a Visitors Guide 
+ 
+             View a digital guide or request a printed copy. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Get a Fishing License 
+ 
+             Register and purchase fishing license online. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Find a Fair 
+ 
+             Find a local fair, which provides fair dates and information. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              Visit California 
+ 
+ 
+ 
+             Learn tourist and travel locations and needs. A guide to your research and design for a fun and fabulous California vacation! 
+ 
+ 
+             Explore Now 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              California Volunteers 
+ 
+ 
+ 
+             Find volunteer opportunities near you. 
+ 
+ 
+             Volunteer Now! 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+        Government 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Look Up a Bill or Law 
+ 
+             Search the full text of California bills and laws. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Look Up My Representatives 
+ 
+             Find your State Senate, State Assembly or US Congressional Representative. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Look Up Tax Rates 
+ 
+             Find a sales and use tax rate. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            Look Up Crime Statistics 
+ 
+             Research crime data submitted by county and local law enforcement agencies. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              Governor&#8217;s Office 
+ 
+ 
+ 
+             Governor Edmund G. Brown Jr. is serving his fourth term as Governor of California. 
+ 
+ 
+             Read More 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              State Agencies 
+ 
+ 
+ 
+             Search California State Agency Directory. 
+ 
+ 
+             Find More 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+        Search 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+        × 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+           All CA.Gov 
+ 
+ 
+ 
+ 
+           Services 
+ 
+ 
+ 
+ 
+           Agencies 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+           Service Filters 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+           Agency Filters 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      Loading 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      How 
+ 
+ 
+ 
+ 
+ 
+ 
+          do I apply for health coverage? 
+ 
+ 
+ 
+ 
+ 
+ 
+          do I file for unemployment? 
+ 
+ 
+ 
+ 
+ 
+ 
+          do I find a copy of birth, death, marriage records? 
+ 
+ 
+ 
+ 
+ 
+ 
+          do I find a job? 
+ 
+ 
+ 
+ 
+ 
+ 
+          do I look up the Sales Tax? 
+ 
+ 
+ 
+ 
+ 
+ 
+          do I obtain a fishing license? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      Who 
+ 
+ 
+ 
+ 
+ 
+ 
+          is my elected official? 
+ 
+ 
+ 
+ 
+ 
+ 
+          is the Executive Branch? 
+ 
+ 
+ 
+ 
+ 
+ 
+          qualifies for Covered CA? 
+ 
+ 
+ 
+ 
+ 
+ 
+          is California's Judicial Branch? 
+ 
+ 
+ 
+ 
+ 
+ 
+          are the emergency contacts? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      What 
+ 
+ 
+ 
+ 
+ 
+ 
+          are the current state job opportunities? 
+ 
+ 
+ 
+ 
+ 
+ 
+          is California doing with High Speed Rail? 
+ 
+ 
+ 
+ 
+ 
+ 
+          are California's climate change goals? 
+ 
+ 
+ 
+ 
+ 
+ 
+          are my business opportunities in California? 
+ 
+ 
+ 
+ 
+ 
+ 
+          are California's current law/regulations? 
+ 
+ 
+ 
+ 
+ 
+ 
+          do I need a license for? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      Where 
+ 
+ 
+ 
+ 
+ 
+ 
+          are California&#8217;s prison inmates? 
+ 
+ 
+ 
+ 
+ 
+ 
+          are my recreational places? 
+ 
+ 
+ 
+ 
+ 
+ 
+          is my closest school? 
+ 
+ 
+ 
+ 
+ 
+ 
+          can I register to vote? 
+ 
+ 
+ 
+ 
+ 
+ 
+          can I lookup California's property assets? 
+ 
+ 
+ 
+ 
+ 
+ 
+          are the farmer's markets? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      When 
+ 
+ 
+ 
+ 
+ 
+ 
+          do I file my taxes? 
+ 
+ 
+ 
+ 
+ 
+ 
+          do my legislators meet? 
+ 
+ 
+ 
+ 
+ 
+ 
+          can I apply for unemployment? 
+ 
+ 
+ 
+ 
+ 
+ 
+          can I apply for disability? 
+ 
+ 
+ 
+ 
+ 
+ 
+          is the next state exam? 
+ 
+ 
+ 
+ 
+ 
+ 
+          can I apply to financial aid? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      Why 
+ 
+ 
+ 
+ 
+ 
+ 
+          do I pay taxes? 
+ 
+ 
+ 
+ 
+ 
+ 
+          should I live/work/play in California? 
+ 
+ 
+ 
+ 
+ 
+ 
+          is California in a drought? 
+ 
+ 
+ 
+ 
+ 
+ 
+          is California one of the largest economies in the world? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      Mobius Arch in Alabama Hills Recreation Area 
+ 
+ 
+ 
+      ©  2017 State of California 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+       Explore 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         Apply for Food Stamps 
+ 
+ 
+ 
+ 
+ 
+ 
+         File Your Income Taxes 
+ 
+ 
+ 
+ 
+ 
+ 
+         Find a Job 
+ 
+ 
+ 
+ 
+ 
+ 
+         Manage Your Unemployment Insurance Claim 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+             Apply for Food Stamps 
+ 
+ 
+ 
+              Department of Social Services  (CDSS) 
+ 
+ 
+ 
+             The CalFresh program helps to improve the health and well-being of qualified households and individuals by providing them a means to meet their nutritional needs. 
+ 
+ 
+ 
+ 
+ 
+ 
+              See Details 
+ 
+ 
+ 
+ 
+              FAQ's 
+ 
+ 
+ 
+ 
+ 
+              General Information: 
+ 
+               1-877-847-3663 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+             File Your Income Taxes 
+ 
+ 
+ 
+              Franchise Tax Board  (FTB) 
+ 
+ 
+ 
+             The FTB offers CalFile for taxpayers to conveniently file income tax online.  The FTB also provides a list of alternative e-file providers that you could use. 
+ 
+ 
+ 
+ 
+ 
+ 
+              See Details 
+ 
+ 
+ 
+ 
+              FAQ's 
+ 
+ 
+ 
+ 
+ 
+              General Information: 
+ 
+               800-852-5711 
+ 
+ 
+ 
+ 
+ 
+ 
+              Check My State Tax Refund Status 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+             Find a Job 
+ 
+ 
+ 
+              Employment Development Department  (EDD) 
+ 
+ 
+ 
+             Find a Job, look up job openings, find information about applying for jobs in California. 
+ 
+ 
+ 
+ 
+ 
+ 
+              See Details 
+ 
+ 
+ 
+ 
+              FAQ's 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              File for Disability 
+ 
+ 
+              File for Paid Family Leave 
+ 
+ 
+              File for Unemployment 
+ 
+ 
+              Honor a Hero, Hire a Vet 
+ 
+ 
+              Manage Your Unemployment Insurance Claim 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+             Manage Your Unemployment Insurance Claim 
+ 
+ 
+ 
+              Employment Development Department  (EDD) 
+ 
+ 
+ 
+             UI Online is a fast, convenient, and secure way for Unemployment Insurance (UI) customers to access claim information, certify for benefits*, and manage their claims 24 hours a day, seven days a week. 
+ 
+ 
+ 
+ 
+ 
+ 
+              See Details 
+ 
+ 
+ 
+ 
+ 
+              General Information: 
+ 
+               1-800-300-5616 
+ 
+ 
+ 
+ 
+ 
+ 
+              File for Disability 
+ 
+ 
+              File for Paid Family Leave 
+ 
+ 
+              File for Unemployment 
+ 
+ 
+              Find a Job 
+ 
+ 
+              Honor a Hero, Hire a Vet 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+        More Services 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              Celebrating California&#8217;s Small Business Employers 
+ 
+ 
+              The Employment Development Department (EDD) recognizes the great impact of small businesses on California&#8217;s economy and celebrates their contributions to the State of California. 
+ 
+ 
+              Learn More 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              Download Cal FIRE&#8217;s Ready for Wildfire App 
+ 
+ 
+              Being ready for a wildfire has never been easier! Download the Cal FIRE&#8217;s app on the the Apple App store or the Google Play Store. 
+ 
+ 
+              Learn More 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              California&#8217;s Cap and Trade Dollars at Work 
+ 
+ 
+              California has put $1.2 billion cap and trade dollars toward various projects and programs to help reduce greenhouse gas emissions, improve public health and strengthen the economy. 
+ 
+ 
+              Learn More 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              California Business Portal 
+ 
+ 
+              The California Business Portal is the one-stop shop if you&#8217;re looking to start or grow a business in California. 
+ 
+ 
+              Learn More 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              Bureau of Medical Cannabis Regulation 
+ 
+ 
+              The Bureau of Medical Cannabis Regulation is working hard to develop wide ranging regulations for this complex and expanding market. 
+ 
+ 
+              Learn more and sign up for email updates 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+          39 
+ 
+ 
+          M+ 
+ 
+ 
+ 
+         Population Estimates (July 2015) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+          6 
+ 
+ 
+          th 
+ 
+ 
+ 
+         Largest Economy in the World 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+          17 
+ 
+ 
+          M 
+ 
+ 
+ 
+         International Visitors in 2015 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+          19 
+ 
+ 
+          M+ 
+ 
+ 
+ 
+         California&#8217;s Civilian Labor Force 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+          California has millions of dollars that may belong to you! 
+ 
+ 
+          Under the state&#8217;s Unclaimed Property Law, holders such as financial institutions, corporations, business associations, and insurance companies report and submit unclaimed property (e.g., bank accounts, stocks, bonds, uncashed checks, and safe deposit box contents) to the State Controller&#8217;s Office when there has been no activity on an account for three years. Property can be claimed directly by the owner or heir without any service charge or filing fee. 
+ 
+ 
+ 
+ 
+ 
+             Unclaimed Property Search 
+ 
+ 
+ 
+ 
+ 
+ 
+             Life Insurance Settlement Search 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+           More Information 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         Campaigns 
+ 
+ 
+ 
+ 
+           Register to Vote 
+ 
+ 
+ 
+ 
+           Save Our Water 
+ 
+ 
+ 
+ 
+           Flex Alert 
+ 
+ 
+ 
+ 
+ 
+ 
+         Alerts 
+ 
+ 
+ 
+ 
+           Amber Alert 
+ 
+ 
+ 
+ 
+           Fire 
+ 
+ 
+ 
+ 
+           My Hazards 
+ 
+ 
+ 
+ 
+ 
+ 
+         About 
+ 
+ 
+ 
+ 
+           Governor 
+ 
+ 
+ 
+ 
+           Lt. Governor 
+ 
+ 
+ 
+ 
+           California Data 
+ 
+ 
+ 
+ 
+ 
+ 
+         Support 
+ 
+ 
+ 
+ 
+           State Directory 
+ 
+ 
+ 
+ 
+           Feedback Survey 
+ 
+ 
+ 
+ 
+           Technical Issues 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         Back to Top 
+ 
+ 
+ 
+ 
+         Conditions of Use 
+ 
+ 
+ 
+ 
+         Privacy Policy 
+ 
+ 
+ 
+ 
+         Accessibility 
+ 
+ 
+ 
+ 
+         Contact Us 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+          Flicker 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+          Pinterest 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+          Twitter 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+          YouTube 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     Copyright © 2017 State of California 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+       × 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+       × 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

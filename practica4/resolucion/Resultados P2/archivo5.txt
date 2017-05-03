@@ -1,0 +1,959 @@
+ 
+ 
+ <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en" xml:lang="en" dir="ltr" 
+  xmlns:og="http://ogp.me/ns#" 
+  xmlns:article="http://ogp.me/ns/article#" 
+  xmlns:book="http://ogp.me/ns/book#" 
+  xmlns:profile="http://ogp.me/ns/profile#" 
+  xmlns:video="http://ogp.me/ns/video#" 
+  xmlns:product="http://ogp.me/ns/product#"> 
+    <html class="no-js lt-ie9 lt-ie8" lang="en" xml:lang="en" dir="ltr" 
+  xmlns:og="http://ogp.me/ns#" 
+  xmlns:article="http://ogp.me/ns/article#" 
+  xmlns:book="http://ogp.me/ns/book#" 
+  xmlns:profile="http://ogp.me/ns/profile#" 
+  xmlns:video="http://ogp.me/ns/video#" 
+  xmlns:product="http://ogp.me/ns/product#"> 
+    <html class="no-js lt-ie9" lang="en" xml:lang="en" dir="ltr" 
+  xmlns:og="http://ogp.me/ns#" 
+  xmlns:article="http://ogp.me/ns/article#" 
+  xmlns:book="http://ogp.me/ns/book#" 
+  xmlns:profile="http://ogp.me/ns/profile#" 
+  xmlns:video="http://ogp.me/ns/video#" 
+  xmlns:product="http://ogp.me/ns/product#"> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   National Oceanic and Atmospheric Administration | U.S. Department of Commerce 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    Jump to Content 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+           Enter Search Terms 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+           Weather 
+ 
+ 
+ 
+ 
+           Climate 
+ 
+ 
+ 
+ 
+           Oceans &amp; Coasts 
+ 
+ 
+ 
+ 
+           Fisheries 
+ 
+ 
+ 
+ 
+           Satellites 
+ 
+ 
+ 
+ 
+           Research 
+ 
+ 
+ 
+ 
+           Marine &amp; Aviation 
+ 
+ 
+ 
+ 
+           Charting 
+ 
+ 
+ 
+ 
+           Sanctuaries 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+           About our agency 
+ 
+ 
+ 
+ 
+           News and features 
+ 
+ 
+ 
+ 
+           Our work 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            MENU 
+ 
+ 
+            CLOSE 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            National Oceanic and Atmospheric Administration 
+ 
+ 
+            U.S. Department of Commerce 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+             Find your local 
+ 
+            weather 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              Enter your ZIP code 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         Content 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                            Spring safety: Learn how to prepare for spring weather 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                            Planting an Earth Day garden? Consider climate&#8217;s new normal 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                            Meet Désirée Tommasi: Pioneer in new field of fish forecasting 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                               National Oceanic and Atmospheric Administration 
+ 
+ 
+                               U.S. Department of Commerce 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                             Explore 
+ 
+ 
+                             Close 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                Find your local 
+ 
+                               weather 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                 Enter your ZIP code 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                            Frequently accessed tools &amp; resources 
+ 
+ 
+ 
+ 
+ 
+ 
+                                Weather forecast tools and resources 
+ 
+ 
+ 
+ 
+                                Oceans and coastal tools, sanctuary permits, charts and images 
+ 
+ 
+ 
+ 
+                                Fisheries regulations, permits, data reporting and restoration projects 
+ 
+ 
+ 
+ 
+                                Satellite imagery, reports, launch information 
+ 
+ 
+ 
+ 
+                                Climate data and reports 
+ 
+ 
+ 
+ 
+                                Budgets, grants and Corporate Services 
+ 
+ 
+ 
+ 
+                                Educational resources 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                Enter Search Terms 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                    Humpback whales are dying on the East Coast. NOAA wants to know why. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                            AROUND NOAA   // 
+ 
+ 
+ 
+ 
+ 
+ 
+                                Watch live: NOAA Ship Okeanos Explorer probes seamounts, deep-water areas of central Pacific 
+ 
+ 
+ 
+ 
+                                Fifty years ago, a historic balloon launch that changed the way we see the ozone layer 
+ 
+ 
+ 
+ 
+                                Study: Global plant growth surging alongside carbon dioxide 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                     NOAA 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                       Enter Search Terms 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                   Frequently accessed tools &amp; resources 
+ 
+ 
+ 
+ 
+ 
+ 
+                       Weather forecast tools and resources 
+ 
+ 
+ 
+ 
+                       Oceans and coastal tools, sanctuary permits, charts and images 
+ 
+ 
+ 
+ 
+                       Fisheries regulations, permits, data reporting and restoration projects 
+ 
+ 
+ 
+ 
+                       Satellite imagery, reports, launch information 
+ 
+ 
+ 
+ 
+                       Climate data and reports 
+ 
+ 
+ 
+ 
+                       Budgets, grants and Corporate Services 
+ 
+ 
+ 
+ 
+                       Educational resources 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                   AROUND NOAA   // 
+ 
+ 
+ 
+ 
+ 
+ 
+                       Watch live: NOAA Ship Okeanos Explorer probes seamounts, deep-water areas of central Pacific 
+ 
+ 
+ 
+ 
+                       Fifty years ago, a historic balloon launch that changed the way we see the ozone layer 
+ 
+ 
+ 
+ 
+                       Study: Global plant growth surging alongside carbon dioxide 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                               About our agency 
+ 
+ 
+ 
+ 
+                               News and features 
+ 
+ 
+ 
+ 
+                               Our work 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                Stay connected 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                               Share to Twitter 
+ 
+ 
+ 
+ 
+                               Share to Facebook 
+ 
+ 
+ 
+ 
+                               NOAA on Instagram 
+ 
+ 
+ 
+ 
+                               NOAA on YouTube 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                               NOAA Home 
+ 
+ 
+ 
+                              Science. Service. Stewardship. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                           How are we doing? 
+ 
+ 
+ 
+                            Feedback 
+ 
+                             opens in new window 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                              Protecting Your Privacy 
+ 
+ 
+ 
+ 
+                              FOIA 
+ 
+ 
+ 
+ 
+                              Information Quality 
+ 
+ 
+ 
+ 
+                              Disclaimer 
+ 
+ 
+ 
+ 
+                              USA.gov 
+ 
+ 
+ 
+ 
+                              Ready.gov 
+ 
+ 
+ 
+ 
+                              EEO 
+ 
+ 
+ 
+ 
+                              Employee Check-In 
+ 
+ 
+ 
+ 
+                              Contact us 
+ 
+ 
+ 
+ 
+                              Staff Directory 
+ 
+ 
+ 
+ 
+                              Need help? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

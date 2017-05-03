@@ -1,0 +1,95 @@
+Práctica 4
+----------
+Los objetivos de esta práctica son:
+
+	1) Realizar un scraper
+	2) Realizar una visualizaciones de la relevancia de las palabras en las 
+	páginas web
+	3) Realizar visualizaciones geográficas que permitan comparar información 
+	cuantitativa entre países
+	4) Realizar otros análisis de los datos
+
+Introduccion
+------------
+
+Un scraper (crawler o spider) es un programa que automatiza la bajada 
+de páginas web.
+
+Una nube de palabras (word cloud) es una visualizacion bastante 
+popular que permite mostrar las palabras más relevantes de un texto.
+
+Una visualización Choropleth (https://en.wikipedia.org/wiki/Choropleth_map)
+permite ver información geográfica.
+
+El archivo "top-1m.csv" contiene la informacion de un millon de sitios 
+web ordenados por cantidad de visitas. Esta informacion fue tomada de: 
+	http://s3.amazonaws.com/alexa-static/top-1m.csv.zip
+
+El archivo "paises.csv" tiene la conversión entre los nombres de los paises 
+y sus correspondientes dominios.
+
+Ejercicio 1
+-----------
+
+1) En el documento "choroplethr.pdf" se decriben las funciones de una librería de R para 
+hacer visualizaciones geográficas. Realizar el ejemplo de la función "country_choropleth" (pág. 11).
+
+NOTA 1: para que funcione el ejemplo en R hay que importar la librería:
+
+	library(choroplethr)
+
+NOTA 2: fijarse que los nombres de las columnas del dataframe que se le pasa como parámetro a 
+la función "country_choropleth" tiene ciertos nombres de columnas (ver el dataframe "df_pop_country")
+
+2) Hacer un programa en python que en base a la información de los archivos "top-1m.csv" 
+y "paises.csv", genere un archivo .csv cuyas columnas sean: "region" y "value", donde 
+"region" corresponda al nombre del país y "value" la cantidad de sitios asociados a ese país.
+
+NOTA: considerar sólo los dominios que tienen indicador de país (descartar por ejemplo los sitios que 
+terminan en ".com")
+
+3) Considere la posibilidad de crear un indicador para cada país que tenga en cuenta la relevancia 
+de los sitios (un sitio es más relevante que otro si aparece antes en la tabla). 
+Hacer otro programa en python que genere un .csv como en el punto 2) pero que en la columna "value" 
+aparezca el nuevo indicador.
+
+4) Realizar dos mapas choropleth en base a los .csv de los puntos anteriores
+
+5) Considerar la relevancia de los sitios educativos (.edu) de los siguientes 
+países (Argentina, Brasil, Uruguay, Paraguay, Chile y Bolivia) y realizar un choropleth  
+que muestre el resultado
+
+
+
+Ejercicio 2
+-----------
+
+1) Realizar el siguiente tutorial en R
+
+http://www.sthda.com/english/wiki/text-mining-and-word-cloud-fundamentals-in-r-5-simple-steps-you-should-know
+
+2) Realizar un crawler en python que recorra un archivo de texto que contenga en 
+cada línea la url de un sitio web, baje la página correspondiente 
+(en libro "Data Science from Scratch" ver capítulo Scraping the Web, pág. 163) y genere un archivo que contenga 
+sólo el texto, o sea que le saque el html.
+
+NOTA: para sacar los scripts y los estilos se puede hacer los siguiente:
+
+		for script in soup(["script", "style"]):
+			script.extract()
+
+3) Armar un archivo de texto de input para el programa del punto 2) que 
+contenga:
+	* Los 5 dominios más relevantes con extensión ".gov" 
+	* Los 5 dominios más relevantes con extensión ".edu"
+
+NOTA: en esta actividad se consideran sitios en inglés porque los sitios 
+en castellano tienen algunas particularidades relacionadas con los acentos
+	
+4) Para cada uno de los archivos de texto producidos en el punto 3), armar en 
+R una nube de palabras y guardar cada imagen.
+
+5) Decidir si se puede determinar en base a las imágenes creadas en el punto 4),
+ a qué tipo de sitio corresponde cada imagen. Por ejemplo, si las palabras más 
+ frecuentes en una nube de palabras son: "temperatura" y "presión" uno podría 
+suponer que corresponde al sitio del servicio meteorológico.
