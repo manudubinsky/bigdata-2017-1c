@@ -1,0 +1,114 @@
+Práctica 5
+----------
+Los objetivos de esta práctica son:
+
+	1) Realizar ingeniería reversa de una base de datos
+	2) Integrar fuentes de datos heterogéneas para generar informacion nueva
+	3) Crear un esquema relacional y consultas SQL
+	4) Aplicar las nociones de proceso de normalización y modelo 
+	entidad-relación
+	
+Introducción
+------------
+
+La ingeniería reversa de una base de datos es el proceso por el cual 
+se extrae la definición de la base y se pueden visualizar las relaciones 
+de las entidades.
+
+Para realizar ingeniería reversa de una base de datos postgres se 
+puede usar el siguiente cliente (sqldeveloper):
+
+http://sqldeveloper.solyp.com/download/index.html
+
+					****
+
+Para integrar python y postgres ver el siguiente tutorial:
+
+http://zetcode.com/db/postgresqlpythontutorial/
+
+					****
+
+El motor de base de datos relacional que vamos a usar es postgres. 
+
+Referencia: postgresql-9.5-A4.pdf
+
+					****
+					
+Referencias del proceso de Normalización:
+
+1) https://en.wikipedia.org/wiki/Database_normalization
+2) http://beginnersbook.com/2015/05/normalization-in-dbms/
+
+Referencia de modelo entidad-relación: https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model
+
+Ejercicio 1
+-----------
+
+Crear la base de datos "world" 
+
+	createdb world 
+
+Ejecutar el script "world.sql" para crear las tablas y los datos. 
+
+	psql -f world.sql world
+ 
+Los motores de base de datos en general siguen el modelo cliente/servidor. 
+Vamos a usar un cliente hecho en java: "sqldeveloper". Nos va a permitr 
+ver las tablas, ejecutar comandos SQL y hacer diagramas. Para ejecutarlo:
+
+	java -jar sqldeveloper.jar
+	
+Para conectarse a la base: <botón derecho + Databases> >> Open Connection
+
+1) Hacer un diagrama de entidad-relación de la base de datos world. 
+	Para generarlo hay que ir a (New Diagram >> Import objects).
+	Describir las entidades, sus relaciones y cardinalidades.
+
+2) En qué forma normal está el modelo de datos? (Justificar)
+Se encuentra en tercera forma normal porque todos los atributos son atomicos, los atributos no primos dependen de la clave primaria y no hay dependencias transitivas.
+
+3) Realizar las siguientes consultas en SQL (Edit >> SQL Statement):
+	a) Cantidad de ciudades de América del Sur: select count(*) from country where region like '%South America%' 14
+	b) Listar los lenguajes distintos de Asia: select distinct language from country c, countrylanguage cl where c.region like '%Asia%' and c.code = cl.countrycode;
+	c) Los 5 paìses con mayor GNP: select name,gnp from country order by gnp desc limit 5;
+
+
+Ejercicio 2
+-----------
+
+La página web "WICC 2017.html" contiene informacion de artículos 
+producidos por universidades argentinas que fueron presentados en una 
+jornada organizada por ITBA los días 27 y 28 de abril. Con esa 
+informacion, se requiere armar un modelo de datos relacional de 
+trabajos, autores y universidades.
+
+1) Realizar un DER del esquema, que muestre las entidades, sus 
+relaciones y las cardinalidades.
+
+2) Implementar el esquema en el motor postgres. Especificar las claves 
+primarias y foráneas.
+
+Las tablas podrían ser:
+
+CATEGORÍA(id_categoria, nombre) 
+ARTICULO(id_articulo, titulo, id_categoria)
+ARTICULO_AUTOR(id_articulo, id_autor)
+AUTOR(id_autor, mail)
+AUTOR_UNIVERSIDAD(id_autor, id_universidad)
+UNIVERSIDAD(id_universidad, provincia)
+
+3) Hacer un programa en python para importar los datos de la página web 
+en al esquema.
+	NOTA 1: evaluar si conviene utilizar la librería BeautifulSoup para 
+	extraer la informacion del archivo ".html" o si directamente es 
+	preferible usar expresiones regulares.
+
+	NOTA 2: para obtener los nombres y provincias de las universidades 
+	se sugiere armar un scraper que en base a los dominios de los mails 
+	de los autores, se baje de la web las páginas de las universidades 
+	y trate de extraer la provincia.
+
+4) Realizar en SQL las siguientes consultas:
+	a) Cantidad de artículos producidos por cada universidad
+	b) Cantidad de artículos producidos por cada provincia
+	c) Promedio de autores por artículo en cada categoría

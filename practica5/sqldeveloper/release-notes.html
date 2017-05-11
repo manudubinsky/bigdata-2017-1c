@@ -1,0 +1,410 @@
+<html>
+<head>
+
+<!-- Copyright (c) Jan Borchers 2000-2006 -->
+
+<style type="text/css">
+<!--
+body {background-color: #ffffff; color: #000000;}
+a {color: #3366ff; text-decoration: none;}
+a:hover {text-decoration: underline;}
+h1 {font-family: Arial,Helvetica,Geneva,Helvetica,Geneva; font-size: 20px; font-weight: bold; color: #3366ff; margin: 0px;}
+h2 {font-family: Arial,Helvetica,Geneva,Helvetica,Geneva; font-size: 14px; font-weight: bold; font-style: italic; color: #6699ff; margin: 0px;}
+h3 {font-family: Arial,Helvetica,Geneva; font-size: 12px; font-weight: bold; margin-top: 16px; margin-bottom: 16px; background-color: #6699ff; color: #ffffff; width: 100%; padding:4px;}
+ul {font-family: Arial,Helvetica,Geneva; font-size: 12px; font-weight: normal;}
+ul.crossIndex {margin-top: 16px; margin-bottom: 16px; font-weight:bold; color: #3366ff;}
+li {margin-bottom: 0px;}
+-->
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>SQL Developer Release Notes</title>
+</head>
+<body>
+
+<h1>SQL Developer Release Notes</h1>
+<h2>History of Changes</h2>
+
+<ul class="crossIndex">
+	<li><a href="#2.3.0">Version 2.3.0</a></li>
+	<li><a href="#2.2.0">Version 2.2.0</a></li>
+	<li><a href="#2.1.0">Version 2.1.0</a></li>
+	<li><a href="#2.0.0">Version 2.0.0</a></li>
+	<li><a href="#1.16">Version 1.16</a></li>
+	<li><a href="#1.15">Version 1.15</a></li>
+	<li><a href="#1.14">Version 1.14</a></li>
+	<li><a href="#1.13">Version 1.13</a></li>
+	<li><a href="#1.12">Version 1.12</a></li>
+	<li><a href="#1.11">Version 1.11</a></li>
+	<li><a href="#1.10">Version 1.10</a></li>
+	<li><a href="#1.09">Version 1.09</a></li>
+	<li><a href="#1.08">Version 1.08</a></li>
+	<li><a href="#1.07">Version 1.07</a></li>
+	<li><a href="#1.06">Version 1.06</a></li>
+	<li><a href="#previous">Previous Versions</a></li>
+</ul>
+
+<!-- ####################################################################### -->
+<!-- version 2.3.0 -->
+<!-- ####################################################################### -->
+<a name="2.3.0"></a>
+<h3>Version 2.3.0</h3>
+<ul>
+	<li>Data export wizard supporting multiple output formats:
+		<ul>
+			<li>SQL - Creates a SQL insert script that can be run against a database.</li>
+			<li>CSV - Creates a CSV (Comma Separated Values) list that can be used in a spreadsheet.</li>
+			<li>XML- Creates a XML document that can be transformed to various other formats.</li>
+			<li>HTML - Creates a HTML document that can be inserted in most office applications.</li>
+		</ul>
+	</li>
+	<li>Oracle enhancements:
+		<ul>
+			<li>Tablespace analyser.</li>
+			<li>Asynchronous execution of explain plan.</li>
+			<li>Session info now shows old and current SQL statement.</li>
+		</ul>
+	</li>
+	<li>New database connector for H2.</li>
+	<li>Driver settings dialog allows to enable/disable driver archives.</li>
+	<li>Several minor improvements and bug fixes.</li>
+</ul>
+
+
+<!-- ####################################################################### -->
+<!-- version 2.2.0 -->
+<!-- ####################################################################### -->
+<a name="2.2.0"></a>
+<h3>Version 2.2.0</h3>
+<ul>
+	<li>The connector chooser dialog provides access to an integrated port scanner
+		to search for open ports on database servers.</li>
+	<li>In addition to primary and foreign keys on table columns the database
+		navigator also shows unique keys on columns now.</li>
+	<li>Search for software updates of SQL Developer implemented
+		(can be initiated by the user from the help menu).</li>
+	<li>The database comparison has been extended to compare constraints, indexes,
+		procedures, functions and triggers.</li>
+	<li>Oracle 10g recycle bin extension added to examine and manage dropped objects.</li>
+	<li>Graphical Oracle database monitor implemented.</li>
+	<li>Graphical Microsoft database monitor implemented.</li>
+	<li>In addition to the ODBC/JDBC Bridge driver the Microsoft SQL Server connector
+		now also supports connections via the jTDS driver (without ODBC).</li>
+	<li>Microsoft Access shows forms, reports, pages, modules and macros in the database navigator.</li>
+	<li>Bug in Microsoft Access view source retrieval added. Expressions are not quoted any more.</li>
+	<li>Diagram editor:
+		<ul>
+			<li>PNG image file export function implemented.</li>
+			<li>Context menu (right mouse button) in diagram window.</li>
+			<li>Functions added for aligning objects against each other.</li>
+			<li>Improved browser for database object import.</li>
+		</ul>
+	</li>
+	<li>HTML added as clipboard format for SQL Editors to support colored text.</li>
+	<li>Bookmarks:
+		<ul>
+			<li>History size can be configured by the user now.</li>
+			<li>Copy bookmark action in SQL statement editor added.</li>
+		</ul>
+	</li>
+	<li>Query result in SQL statement editor now also visualizes byte arrays.</li>
+	<li>System info in about dialog added.</li>
+	<li>Several minor improvements and bug fixes.</li>
+</ul>
+
+
+<!-- ####################################################################### -->
+<!-- version 2.1.0 -->
+<!-- ####################################################################### -->
+<a name="2.1.0"></a>
+<h3>Version 2.1.0</h3>
+<ul>
+	<li>Docking desktop.</li>
+	<li>History for SQL statements and bookmarks catalog.</li>
+	<li>New node in database navigator showing the dependencies of a view.</li>
+	<li>Oracle instance parameters are now shown in the database info dialog (visible with DBA privileges only).</li>
+	<li>Drag and Drop of text blocks in SQL editors.</li>
+	<li>Missing or corrupted driver archives are shown as such in the settings dialog.</li>
+	<li>Plugins information in settings dialog.</li>
+	<li>Support for look and feel decorations implemented (This decorates title bars and borders of windows).</li>
+	<li>Diagram editor:
+		<ul>
+			<li>Color choosers now also provide a transparent color.</li>
+			<li>Fixed partial rotated labels.</li>
+		</ul>
+	</li>
+	<li>Several minor improvements and bug fixes.</li>
+</ul>
+
+
+<!-- ####################################################################### -->
+<!-- version 2.0.0 -->
+<!-- ####################################################################### -->
+<a name="2.0.0"></a>
+<h3>Version 2.0.0</h3>
+<ul>
+	<li>Complete technical redesign.</li>
+	<li>Refactored dialog for opening connections:
+		<ul>
+			<li>Detailed driver info for each connector plugin.</li>
+			<li>Direct access to class path configuration.</li>
+			<li>Optional user defined name for all connections.</li>
+			<li>Basic connector plugin now allows flexible definition of attributes
+				and retrieves available arguments supported by the driver.</li>
+			<li>Oracle connector plugin now allows to connect as SYSDBA or SYSOPER.</li>
+		</ul>
+	</li>
+	<li>Unicode support for file I/O.</li>
+	<li>Menu with recently opened connections added.</li>
+	<li>Tabbed bar added for easy switching between windows.</li>
+	<li>Exported keys information for tables in database navigator.</li>
+	<li>Basic extension for catalog and schema comparison added.</li>
+	<li>Basic extension for dissolving object depencies added.</li>
+	<li>New diagram editor with zoom, automatic layout and SVG support.</li>
+	<li>Extended quick browse for simple creation of complex joined queries.</li>
+	<li>Microsoft SQL Server enhancements:
+		<ul>
+			<li>Microsoft SQL Server connector added.</li>
+			<li>Process viewer extension implemented.</li>
+			<li>Server monitor extension implemented.</li>
+			<li>Remote command shell extension added.</li>
+		</ul>
+	</li>
+	<li>MySQL enhancements:
+		<ul>
+			<li>Process viewer extension implemented.</li>
+		</ul>
+	</li>
+	<li>Oracle enhancements:
+		<ul>
+			<li>Filter for sessions extension added.</li>
+			<li>Jobs extension added.</li>
+			<li>Oracle Text (interMedia) extension added.</li>
+			<li>Tablespace usage information in database navigator.</li>
+			<li>User roles and privileges in database navigator.</li>
+			<li>Unique key constraint columns in database navigator.</li>
+			<li>Segments information for various objects.</li>
+			<li>Added missing columns clause in alter trigger function.</li>
+		</ul>
+	</li>
+	<li>New database connector for Ingres.</li>
+	<li>New database connector for Firebird.</li>
+	<li>New database connector for Mckoi SQL Database.</li>
+	<li>New database connector for Mimer SQL.</li>
+	<li>New database connector for PostgreSQL.</li>
+	<li>The GO command is now recognized as a statement terminator in SQL script editor.</li>
+	<li>Echo output option for commands in SQL script editor.</li>
+	<li>Added support for multiple result sets in SQL script editor.</li>
+	<li>New find and replace text dialog with regular expressions.</li>
+	<li>Clob viewer supports text search, XML syntax highlighting and XML formatting.</li>
+	<li>Blob image viewer now supports zooming and allows to copy the displayed image to clipboard.</li>
+	<li>Several minor improvements and bug fixes.</li>
+</ul>
+
+
+<!-- ####################################################################### -->
+<!-- version 1.16 -->
+<!-- ####################################################################### -->
+<a name="1.16"></a>
+<h3>Version 1.16</h3>
+<ul>
+	<li>Window position is no longer stored for minimized or maximized state.</li>
+</ul>
+
+
+<!-- ####################################################################### -->
+<!-- version 1.15 -->
+<!-- ####################################################################### -->
+<a name="1.15"></a>
+<h3>Version 1.15</h3>
+<ul>
+	<li>Command termintors in SQL Script editor (; or /) can now  be turned on and off.</li>
+	<li>Bug fix for blob viewer scrolling.</li>
+</ul>
+
+
+<!-- ####################################################################### -->
+<!-- version 1.14 -->
+<!-- ####################################################################### -->
+<a name="1.14"></a>
+<h3>Version 1.14</h3>
+<ul>
+	<li>Single SQL Editor only executes the selected range of a query if a
+		selection exists.</li>
+	<li>Editor syntax highlighting colors can now be configured in the
+		properties dialog.</li>
+	<li>DDL extraction of table primary keys implemented.</li>
+	<li>DDL extraction of users and table constraints for Oracle implemented.</li>
+	<li>SQL Script Editor: Improved parser and single step execution implemented,
+		bug fix for execute command which often started at wrong position.</li>
+	<li>Extended Windows PLAF is no longer installed on non-Windows machines as
+		it does only work on Windows OS.</li>
+	<li>Image option for blob viewer implemented. Blobs containing images can be
+		viewed within the application. Supported formats: JPEG, GIF and PNG.</li>
+	<li>Initial connection info in output window.</li>
+	<li>DDL extraction of indices for Oracle implemented.</li>
+	<li>DDL extraction of tablespaces for Oracle implemented.</li>
+	<li>Display of blob objects in query result sets.</li>
+</ul>
+
+
+<!-- ####################################################################### -->
+<!-- version 1.13 -->
+<!-- ####################################################################### -->
+<a name="1.13"></a>
+<h3>Version 1.13</h3>
+<ul>
+	<li>New installer to provide JRE 1.4 compatibility for installation.</li>
+	<li>First preview of Diagram Editor implemented to visualize tables and relations.</li>
+	<li>Display of clob objects in query result sets.</li>
+	<li>Dialog resize bug patched for Linux JVMs (Dialogs are always resizable now).</li>
+	<li>DDL extraction with multiple selection implemented.</li>
+	<li>DDL extraction of sequences for Oracle implemented.</li>
+	<li>DDL extraction of views for Access implemented.</li>
+	<li>Foreign key indentification for Access implemented.</li>
+	<li>Sessions extension for Oracle implemented. The window shows all database
+		sessions and their SQL statements. The user can also kill sessions from there.</li>
+	<li>Schema filter for Oracle implemented. A schema is only shown in the database
+		navigator if the user has access to at least one object of that schema.</li>
+	<li>ODBC connection component now provides a list of available data source names
+		from the ODBC.ini file.</li>
+	<li>Class path order for dynamic driver loading can be configured in the
+		properties dialog.</li>
+</ul>
+
+
+<!-- ####################################################################### -->
+<!-- version 1.12 -->
+<!-- ####################################################################### -->
+<a name="1.12"></a>
+<h3>Version 1.12</h3>
+<ul>
+	<li>JRE 1.4 compatibility. (Fixed some glitches in syntax highlighting and word
+		completion)</li>
+	<li>Online help.</li>
+	<li>Tip of the day.</li>
+	<li>Drag and drop support for database object identifiers from the Database
+		Navigator into editor windows.</li>
+	<li>COUNT(*) function in Single SQL Editor now supports SELECT, UPDATE and DELETE
+		statements.</li>
+	<li>Show Plan extension for SQL Server implemented.</li>
+	<li>Drop support for Oracle constraints and table columns implemented.</li>
+	<li>Foreign key constraints now show the referenced table in Oracle.</li>
+	<li>Bug in Stored Procedure Editor for Oracle fixed. (Carriage return line
+		separators caused an error on Windows)</li>
+</ul>
+
+
+<!-- ####################################################################### -->
+<!-- version 1.11 -->
+<!-- ####################################################################### -->
+<a name="1.11"></a>
+<h3>Version 1.11</h3>
+<ul>
+	<li>Explain Plan extension for Oracle implemented.</li>
+	<li>Visualization of Oracle objects Roles, Privileges and Snapshots implemented.</li>
+	<li>Bug in Single SQL Editor LOB (BLOB/CLOB) display fixed.</li>
+</ul>
+
+
+<!-- ####################################################################### -->
+<!-- version 1.10 -->
+<!-- ####################################################################### -->
+<a name="1.10"></a>
+<h3>Version 1.10</h3>
+<ul>
+	<li>Drop support for Oracle objects Package, Package Body and Sequence
+		implemented.</li>
+</ul>
+
+
+<!-- ####################################################################### -->
+<!-- version 1.09 -->
+<!-- ####################################################################### -->
+<a name="1.09"></a>
+<h3>Version 1.09</h3>
+<ul>
+	<li>Bugs in connection components for MySQL and PointBase fixed
+		(AbstractMethodError).</li>
+	<li>Stored Program Editor with error output for Oracle.</li>
+	<li>Visualization of running queries in Single SQL Editor.</li>
+	<li>Display of 'first fetch time' after query execution in Single SQL Editor.</li>
+</ul>
+
+
+<!-- ####################################################################### -->
+<!-- version 1.08 -->
+<!-- ####################################################################### -->
+<a name="1.08"></a>
+<h3>Version 1.08</h3>
+<ul>
+	<li>Oracle connection component automatically selects the first TNSNames entry
+		after changing the TNSNAMES.ORA location (sometimes the list was empty).</li>
+	<li>A ClassNotFoundException while driver initialization is now displayed with the
+		driver's name and a short note how to solve the problem.</li>
+</ul>
+
+
+<!-- ####################################################################### -->
+<!-- version 1.07 -->
+<!-- ####################################################################### -->
+<a name="1.07"></a>
+<h3>Version 1.07</h3>
+<ul>
+	<li>Oracle objects data files and rollback segments implemented.</li>
+	<li>Warning message when closing editor windows with unsaved content.</li>
+	<li>'Apply' function in properties dialog.</li>
+	<li>Preview for Look and Feel switch implemented.</li>
+	<li>Bug in context menu on Solaris fixed.</li>
+	<li>The about dialog.</li>
+	<li>Support of Oracle sequences and tablespaces.</li>
+	<li>'Copy identifier' function in navigator tree implemented.</li>
+	<li>Oracle TNSNAMES.ORA is now configurable in connection component.</li>
+	<li>Connection profile is now splitted for users and stored in the user home
+		directory.</li>
+	<li>DB2/OS390 object sequence implemented.</li>
+	<li>Data export supports optional virtual auto increment fields.</li>
+	<li>New document windows are opened cascaded.</li>
+	<li>Base functions for Cloudscape implemented.</li>
+	<li>Data export supports further standard date formats.</li>
+</ul>
+
+
+<!-- ####################################################################### -->
+<!-- version 1.06 -->
+<!-- ####################################################################### -->
+<a name="1.06"></a>
+<h3>Version 1.06</h3>
+<ul>
+	<li>Support of multiline strings in single quoted literals.</li>
+	<li>Current catalog is marked with CURRENT.</li>
+	<li>Syntax support for PointBase, ODBC (Jet) and MySQL implemented.</li>
+	<li>Support for alteration of Access views.</li>
+	<li>Focus bug in navigator tree fixed.</li>
+	<li>Header with tooltip in Single Editor result set display.</li>
+	<li>Table column widths adjustment in Single Editor result set display.
+		(three variants).</li>
+</ul>
+
+
+<!-- ####################################################################### -->
+<!-- previous versions -->
+<!-- ####################################################################### -->
+<a name="previous"></a>
+<h3>Previous versions</h3>
+<ul>
+	<li>Simple find and replace function in editors.</li>
+	<li>Support for saving output documents.</li>
+	<li>Connection control commands added to navigator tree context menu.</li>
+	<li>Data export with multiple output formats.</li>
+	<li>Visualization of standard class path in properties dialog.</li>
+	<li>Dynamic driver loading.</li>
+	<li>Properties dialog page for class path configuration.</li>
+	<li>Print support.</li>
+	<li>Automatic indentation in editor.</li>
+	<li>Properties dialog page for editor configuration.</li>
+</ul>
+
+<br>
+
+</body>
+</html>

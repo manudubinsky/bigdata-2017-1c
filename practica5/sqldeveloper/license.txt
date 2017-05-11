@@ -1,0 +1,38 @@
+License Agreement
+
+USE OF THIS SOFTWARE IS SUBJECT TO THE SOFTWARE LICENSE 
+TERMS SET FORTH BELOW. USING THE SOFTWARE INDICATES YOUR 
+ACCEPTANCE OF THESE TERMS. IF YOU DO NOT ACCEPT THESE 
+TERMS, YOU MUST RETURN OR DELETE THE SOFTWARE IMMEDIATELY. 
+
+"Use" means storing, loading, installing, executing or displaying 
+the software. You may not modify the software or disable any
+licensing or control features of the software except as an 
+intended part of the software´s programming features.
+
+This software is not shareware! If you want to use the full
+functionality, you are required to buy your personal license of this
+software. You may not copy or reproduce the software for any purpose
+except to make one (1) archival copy of the software. You may not give
+copies of this software to other people. You may not sell, rent or
+lease the software to others. 
+
+If you are a registered user, you are entitled to use this product
+for your own use. You may not sell, rent or lease the software to
+others without written permission of SOLYP. You may use only one copy
+of the software at one time. You may not use this software on a network
+or on more than one computer at the same time without a licence for
+"concurrent use" or a "multiuser" license.
+
+You must not give away your personal copy. Doing so will result in an 
+infringement of copyright. SOLYP retains the right of claims for
+compensation in respect of damage which occured by your giving away of
+the software copy. This claim shall also extent to all costs which
+SOLYP incurs in defending itself. 
+
+THE SOFTWARE IS WARRANTED IF AT ALL, ONLY ACCORDING TO THE 
+TERMS OF THIS LICENSING AGREEMENT. EXCEPT AS WARRANTED HEREIN, 
+SOLYP HEREBY DISCLAIM ALL WARRANTIES AND CONDITIONS WITH REGARD
+TO THE SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES AND CONDITIONS
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND
+NON-INFRINGEMENT.

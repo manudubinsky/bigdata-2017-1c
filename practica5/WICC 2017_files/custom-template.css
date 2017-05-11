@@ -1,0 +1,120 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  font-family: 'Raleway', serif;
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 300px;
+  min-height: 100%;
+}
+
+nav ul a, nav {
+  color: #f5f5f5;
+}
+
+logo{
+  size: 25px !important;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: grey;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.dropdown-content {
+  width: 200px !important;
+}
+
+ul.dropdown-content.select-dropdown li>span {
+    color: black; /* no need for !important :) */
+}
+
+.title{
+  vertical-align: middle;
+  text-align: center;
+  font-size: 30px;
+}
+
+.subtitle{
+  vertical-align: middle;
+  /*text-align: center;*/
+  font-size: 20px;
+}
+
+.padding-subtitle{
+  padding-top: 15px;
+}
+
+.important-title{
+  vertical-align: middle;
+  /*text-align: center;*/
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.medium-icon{
+  width: 55px;
+  height: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.small-icon{
+  width: 80px;
+  height: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#the-footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+}
+
+.padding-top-25{
+  padding-top: 25px;
+}
+
+.subcontent{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+h1{
+  margin-top: 0px;
+  font-size: 35px;
+}
+
+.padding-bottom-top{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.iframe-map {
+  width:100% !important;
+  height: 250px !important;
+}
+
+#initial-section{
+  background-color: grey;
+}
+
