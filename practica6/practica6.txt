@@ -1,0 +1,93 @@
+Práctica 6
+----------
+Los objetivos de esta práctica son:
+
+	1) Administrar un motor de base de datos NoSQL orientado a 
+	documentos:
+		- Ejecución del proceso
+		- Creación de tablas
+		- Inserción masiva de datos
+		- Realizar consultas map-reduce
+	2) Analizar el comportamiento distribuido del motor al hacer 
+	sharding de tablas
+	3) Conectarse al motor desde un leguaje de programación
+	
+Introduccion
+------------
+
+Vamos a emplear el motor de base de datos NoSQL 'rethinkdb':
+	Instalación: https://www.rethinkdb.com/docs/install/
+	Levantar el motor/mecanismo dsitribuido: https://www.rethinkdb.com/docs/start-a-server/
+	Consola de administración: http://localhost:8080/
+	Importación de datos: https://www.rethinkdb.com/docs/importing/
+	Comparación SQL-reQL: https://www.rethinkdb.com/docs/sql-to-reql/python/#
+	
+rethinkdb implementa sharding de tablas (Referencia: https://en.wikipedia.org/wiki/Shard_(database_architecture))
+
+					****
+
+Para integrar python y rethinkdb ver el siguiente tutorial:
+
+https://www.rethinkdb.com/docs/guide/python/
+
+					****
+Ejercicio 1
+-----------
+
+Importar el archivo tweets.json
+
+Resolver las siguientes consultas en reQL:
+
+	a) Seleccionar el id y el texto de 10 "documents"
+	
+	b) Seleccionar los lenguajes distintos de los tweets
+	
+	c) Seleccionar el id, el nombre de usuario y la cantidad de followers (key 
+	"user.follower_count") de aquellos usuarios que tengan más de 100 followers
+	
+	d) Seleccionar la cantidad de usuarios con más 100 followers
+	
+	e) Seleccionar el id, el nombre de usuario y la cantidad de followers (key 
+	"user.follower_count") de los 10 usuarios con más followers ordenado de manera descendente
+
+Ejercicio 2
+-----------
+
+Realizar las siguientes consultas con map-reduce:
+
+	a) En base al campo "source", determinar la cantidad de usuarios que 
+	hay por cada canal.
+	
+	b) Determinar la cantidad de tweets por cada lenguaje
+
+Ejercicio 3
+-----------
+
+Hacer un programa en python que agrupe los tweets en cortos (hasta 10 palabras),
+medianos (más de 10 y menos 20 palabras) y largos (más de 20 palabras) y devuelva la 
+cantidad de tweets que hay de cada tipo.
+
+
+Ejercicio 4
+-----------
+
+Los siguientes ejercicios tienen el objetivo de entender como implementa 
+sharding rethinkdb.
+
+1) Levantar en cada computadora tres instancias de rethinkb que trabajen 
+cooperativamente como cluster
+
+2) Importar en el cluster el archivo "elecciones.txt"
+
+3) Hacer sharding de la coleccion en el cluster: por lo menos tiene que haber un 
+shard por nodo del cluster y una réplica de cada shard
+
+4) Con el objetivo de hacer un test de stress: realizar 100 veces una consulta que requiera 
+recorrer todos los datos de la coleccion 
+
+5) Realizar modificaciones de algunos documentos y analizar como se propagan los cambios en el cluster
+
+6) Desconectar un nodo del cluster y verificar si las consultas en las dos particiones del 
+cluster (en el nodo desconectado y en el resto del cluster) se pueden satisfacer. Hacer 
+modificaciones en las dos particiones. Reconectar el nodo al cluster y verificar en qué estado 
+queda la coleccion.
