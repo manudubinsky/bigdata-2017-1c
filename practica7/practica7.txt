@@ -1,0 +1,34 @@
+Práctica 7
+----------
+Los objetivos de esta práctica son:
+
+	 1) Comprender el modelo de regresión lineal 
+	 2) Implmentar un modelo de regresión lineal simple
+	 3) Definir un modelo de regresión lineal mùltiple en R
+
+Introduccion
+------------
+
+La bibliografía de consulta para comprender el modelo de regresión lineal 
+es la siguiente:
+	- Introductory Statistics with R (cap. 6 y 11)
+	- An Intriduction to Statistical Learning (cap. 3)
+	- Data Science from Scratch (cap. 14 y 15)
+
+Ejercicio 1
+-----------
+
+De acuerdo a las propiedades en el archivo "properati-AR-2016-08-01-properties-sell.csv", 
+implementar un modelo de regresión lineal simple en python que evalúe la 
+relevancia de los metros cuadrados de las propiedades en el precio de las mismas.
+
+Ejercicio 2
+-----------
+
+De acuerdo a las propiedades en el archivo "properati-AR-2016-08-01-properties-sell.csv",
+el objetivo es realizar un cotizador de propiedades. Para ello se requiere 
+implementar un modelo de regresión lineal múltiple en R que evalúe la 
+relevancia de un conjunto de atributos que resulten de interès en el precio de 
+las mismas (utilizar un subconjunto de poropiedades para ajustar el modelo y luego 
+verificar su precisión con otro conjunto de propiedades).
+
